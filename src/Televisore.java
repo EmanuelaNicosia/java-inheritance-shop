@@ -42,5 +42,9 @@ public class Televisore extends Prodotto {
         this.smart = smart;
     }
 
+    @Override
+    public String toString() {
+        return "TV: " + super.getNome();
+    }
 
 }

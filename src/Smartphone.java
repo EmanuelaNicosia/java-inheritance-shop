@@ -23,4 +23,9 @@ public class Smartphone extends Prodotto {
         this.memoria = memoria;
     }
 
+    @Override
+    public String toString() {
+        return "SMARTPHONE: " + super.getNome();
+    }
+
 }

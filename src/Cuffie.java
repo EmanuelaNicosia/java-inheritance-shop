@@ -22,5 +22,11 @@ public class Cuffie extends Prodotto {
     public void setWireless(boolean wireless) {
         this.wireless = wireless;
     }
+
+    @Override
+    public String toString() {
+        return "CUFFIE: " + super.getNome();
+    }
+
     
 }

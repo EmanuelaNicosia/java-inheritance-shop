@@ -54,4 +54,10 @@ public class Prodotto {
     public void stampa() {
         System.out.println(codice + " * " + nome);
     }
+
+    @Override
+    public String toString() {
+        return codice + " * " + nome;
+    }
+
 }
